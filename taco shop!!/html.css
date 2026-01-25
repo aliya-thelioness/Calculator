@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  
+scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background: linear-gradient(to bottom, rgb(205, 118, 11),white);
+   min-height: 100vh;}
+
+   .container{
+     border-left:1px solid black;
+    border-right:1px solid black;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 10px;
+   margin: 0 auto;
+   max-width: 800px;
+ 
+     }
+
+     .header__title{
+      z-index: 1;
+         width: 100%;
+         max-width: 800px;
+        position: fixed;
+        top:0;
+        background-color: black;
+        color: white;
+        text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+     }
+
+     .header__div{
+      z-index: 1;
+        max-width: 800px;
+         width: 100%;
+        background-color: white;
+        display: grid;
+        grid-auto-flow: column;
+        padding-left: 4%;
+   position: fixed;
+         top:40px;
+     } 
+
+     #section__img{
+   
+      padding-top: 3rem;
+       max-width: 100%;
+       height: auto;
+       display: block;
+     }
+     .sec__title{
+        color: rgb(44, 183, 44);
+        
+    
+     }
+
+     .p__span{
+        font-weight: bold;
+     }
+
+     #para{
+        padding-left: 1rem;
+     }
+
+
+     .main__table,th,td{
+border-collapse: collapse;
+        outline: 2px solid black;
+        padding: 2rem;
+        border-radius: 10px;
+        margin:auto;
+        margin-top: 2rem;
+        text-align: center;
+     }
+
+     #Menu{
+        margin: auto;
+        padding: 1rem;
+       text-decoration: underline;
+     }
+
+
+     .footer{
+          width: 100%;
+         max-width: 800px;
+        position: fixed;
+        bottom:0;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding:3px;
+         border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+     }
+     .main__para{
+        text-align: center;
+        padding: 3rem;
+     }
+
+     a:any-link{
+        color:black
+     }
+
+     .main__animation{
+      color:white;
+       top:-100px;
+       left:20px;
+        position: absolute;
+      padding:1rem;
+      text-align: center;
+      background-color: green;
+      border-radius: 100px;
+      max-width: 100%;
+      font-size: 2rem;
+    
+    
+
+      /*animation*/
+      
+      animation-name: bounceDown;
+      animation-duration: 2s;
+      animation-delay: 1s;
+      animation-fill-mode: forwards;
+      
+     }
+
+     @keyframes bounceDown {
+      0%{
+              top:50;
+      }
+      33%{
+         top:40px;
+      }
+     66%{
+     top:90px;
+     }
+     100%{
+     top:80px;
+     }
+     }
+
+
+
+  a:hover,
+     a:focus{
+      opacity: 0.6;
+     }
+
+
+     @media screen and ( min-width:800px){
+      
+      .main__animation{
+         margin-left:20vw;
+      }
+
+     }
+     @media screen and ( min-width:1500px){
+      
+      .main__animation{
+         margin-left:35vw;
+      }
+
+     }
+
+
+
+
+
+
+
+
+
+
+
+/*color preference*/
+
+@media (prefers-color-scheme: dark){
+
+   body{
+      background: linear-gradient(to bottom, black, rgb(85, 83, 83));
+   }
+
+.header__div{
+   background-color: black;
+   color: white;
+}
+
+.main__animation{
+   color: gray;
+   text-shadow:0 2px 2px   white;
+}
+
+.footer{
+   color: whitesmoke;
+}
+.sec__title{
+color: white;
+}
+.container{
+   border-color: whitesmoke;
+}
+.main__table,th,td{
+   outline-color: whitesmoke;
+   color:whitesmoke;
+}
+a:any-link{
+    color: whitesmoke;
+  }
+}
+
+
+
+
+
+
+
+
+
+   

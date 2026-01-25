@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(212, 200, 200);
+}
+
+#sections{
+   display: flex;      
+  gap: 20px;
+  padding: 20px;
+  margin-left: 40px;
+}
+#searchBar{
+  width:400px;
+  height:40px;
+    border-radius: 10px;
+    border: none;
+  border-bottom: 2px solid black;
+
+}
+
+#submit{
+   width:120px;
+  height:40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(185, 42, 185);
+    cursor: pointer;
+
+}
+#Search{
+  margin-left: 50px;
+}
+
+.buttonValue{
+  padding: 10px;
+  border-radius: 10px;
+  border-color: rgb(185, 42, 185);
+  color:rgb(185, 42, 185);
+cursor: pointer;
+}
+
+ #clothes{
+  display: none;
+     
+}  
+
+.active{
+  background-color: purple;
+  color: white;
+}
+
+.clothes{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-column-gap: 20px;
+   
+  
+  
+ 
+}
+
+.card{
+  background-color: white;
+display: inline-block;
+margin: 20px;
+text-align: center;
+}
+
+.main-image{
+  width: 300px;
+  height: 300px;
+text-align: center;
+object-fit: contain;
+}
+

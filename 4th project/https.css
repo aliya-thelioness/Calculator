@@ -1,0 +1,57 @@
+body{
+    background-image:url(gettyimages-104505579-612x612.jpg);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+min-height: 100vh;
+}
+
+#main{
+    background-color: white;
+   
+
+   
+    border-radius: 30px;
+    width: 350px;
+    height:200px;
+   
+    
+}
+
+
+
+#start{
+    background-color:green;
+    color:white;
+    margin-left: 25px;
+    block-size: 30px;
+    margin: 0px auto;
+        border:none;
+
+
+}
+#restart{
+    background-color: red;
+    color:white;
+     block-size: 30px;
+    margin: 0px auto;
+    border:none;
+
+ 
+    
+}
+#time{
+    text-align: center;
+    font-size: 60px;
+    width: 100%;
+    margin:0px auto;
+    margin-top: 50px;
+    
+ 
+}
+
+#controls{
+    margin-left:150px;
+    margin-top:40px;
+}

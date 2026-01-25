@@ -1,0 +1,46 @@
+body{
+
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+#charcs{
+
+    width: 25vw;
+    height:3.8vh;
+}
+
+#search{
+
+    width: 19vw;
+    height: 3.8vh;
+    margin-left: 20px;
+}
+
+#main{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50vw;
+    height: 50vh;
+}
+
+#detailsBoutChars{
+    color: white;
+
+}
+
+#imager{
+    border: none;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+
+#name{
+    color: white;
+}

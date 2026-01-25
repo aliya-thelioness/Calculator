@@ -1,0 +1,65 @@
+body{
+
+    background: linear-gradient(45deg,purple ,pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#div{
+    background-color: white;
+width: 800px;
+height: 600px;
+position: relative;
+}
+
+
+#arrowLeft{
+
+    margin-top: 300px;
+    margin-left: 80px;
+    background-color: purple;
+    color: white;
+        border:none;
+
+}
+
+#arrowRight{
+    position: absolute;
+margin-left: 595px;
+margin-top:300px ;
+background-color: purple;
+    color: white;
+    border:none;
+
+}
+#circles i{
+
+margin-top:250px;
+
+ cursor: pointer;  
+
+}
+#circles{
+   color: black;
+text-align: center;
+position: relative;
+z-index: 5;
+}
+
+#images{
+
+    position: absolute;
+ top: 100px;
+ left:100px;
+ right: 100px;
+ z-index: 1;
+
+
+}
+/* #circles i:active{
+    color: purple;
+
+} */
+
